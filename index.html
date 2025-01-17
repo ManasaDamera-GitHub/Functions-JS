@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="./index.js"></script>
+    <p><b>1. How would you define a function that takes two numbers as parameters and returns their sum?</b></p>
+    <pre>
+        function sumOfNumbers(a,b){
+            return (`The sum of two numbers is ${a+b}`);
+        }
+        console.log(sumOfNumbers(12,28));
+    </pre>
+    <img src="./Q1.png" alt="OUTPUT 1">
+    <p><b>2. If you define a function that accepts a string as a parameter, how would you modify it to print the string
+            in uppercase?</b></p>
+    <pre>
+                function string(text){
+                    console.log(text.toUpperCase());
+                }
+                string("javascript is awesome");
+            </pre>
+    <img src="./Q2.png" alt="OUTPUT 2">
+    <p><b>3. In JavaScript, what happens if you pass an undefined value as an argument to a function that expects a
+            parameter?</b></p>
+    <pre>
+                function one(a){
+                    console.log(a);
+                }
+                one();
+            </pre>
+    <img src="./Q3.png" alt="OUTPUT 3">
+    <p><b>4. Suppose you have a function that takes an array as a parameter. How would you check inside the function if
+            the array is empty?</b></p>
+    <pre>
+    function emptyArray(Array){
+        if(Array.length == 0){
+            console.log(`Array is empty `);
+        }
+        else{
+            console.log(`Array is not empty ${emptyArray});
+        }
+    }
+    emptyArray([]);
+    emptyArray([1,2,3]);
+    </pre>
+    <img src="./Q4.png" alt="OUTPUT 4">
+    <p><b>5. write a function that takes two numbers as parameters and returns their difference.</b></p>
+    <pre>
+        function difference(a,b){
+            return (`The difference of two numbers is ${a-b}`);
+        }
+        var res = difference(30,10);
+        console.log(res);
+    </pre>
+    <img src="./Q5.png" alt="output 5">
+    <p><b>6. Define a function that accepts a name and age as parameters, and returns a string with a greeting like
+            "Hello, [name]! You are [age] years old."</b></p>
+    <pre>
+                function greeting(name,age){
+                    return (`Hello, ${name} ! You are ${age} years old`);
+                }
+                console.log(greeting(John,25));
+            </pre>
+    <img src="./Q6.png" alt="OUTPUT 6">
+    <p><b>7. Write a function that takes a number as a parameter and returns true if the number is a even number,
+            otherwise false.</b></p>
+    <pre>
+                function isEven(a){
+                    if(a%2==0){
+                        return `${a} is true`;
+                    }
+                    else{
+                        return `${a} is false`;
+                    }
+                }
+                var result = a(21);
+                console.log(result);
+            </pre>
+    <img src="./Q7.png" alt="OUTPUT 7">
+</body>
+
+</html>
